@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marigold Meadows</title>
+        <link rel='stylesheet' href="sign_up-styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="marigold-flower.png" width = '150' alt="Floral">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="sign_up.html">Sign Up</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+                <div class = "container">
+                    <h1>Marigold Meadows - Sign Up</h1>
+                    <h3>Why Join Us?</h3>
+                    <p>Exclusive Offers: Be the first to know about our special promotions 
+                       and seasonal discounts, tailored just for you.</p>
+                    <p>Inspiring Ideas: Dive into a treasure trove of floral inspiration, from 
+                       stunning centerpieces to charming bouquets.</p>
+                    <p>Personalized Recommendations: Let us cater to your floral preferences with 
+                       custom suggestions that speak to your unique style.</p>
+                    <p>Insider Updates: Stay in the loop with the latest trends, events, and 
+                       behind-the-scenes glimpses into our floral wonderland.</p>
+                    <p>Just a few clicks stand between you and a world of floral delights. 
+                       Sign up now and unlock the magic of blossoms at your fingertips!</p>
+                       <form id="signup-form">
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password:</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                            <span id="password-error" class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="first-name">First Name:</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+                <script src="script.js"></script>
+        </main>
+            <footer>
+                <p>&copy; 2002-2024 Marigold Meadows. All rights reserved.</p>
+            </footer>
+    </body>
+</html>

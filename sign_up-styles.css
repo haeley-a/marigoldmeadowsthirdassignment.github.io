@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #ffc739;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 170px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: x-large;
+}
+
+.container {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #fff4c6;
+}
+
+.container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+button {
+    width: 10%;
+    padding: 10px;
+    background-color: #ffc739;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #ebb736;
+}
+
+footer {
+    background-color: #ffc739;
+    color: #fff;
+    padding: 6px;
+    text-align: center;
+}
